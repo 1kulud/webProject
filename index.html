@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/styles.css" />
+    <title>Univers du livre</title>
+  </head>
+  <body onload="affichedate()">
+    <header>
+      <h1>L'Univers Du Livres</h1>
+      <div id="date"></div>
+    </header>
+    <nav>
+      <ul>
+        <li>
+          <a href="HTML/ajoutlivre.html" target="box">Ajout d'un livre</a>
+        </li>
+        <li>
+          <a href="HTML/ajoutabonne.html" target="box">Ajout d'un abonné</a>
+        </li>
+        <li><a href="HTML/detailabonne.html" target="box">Détail abonné</a></li>
+        <li><a href="PHP/emprunt.php" target="box">Emprut d'un livre</a></li>
+        <li>
+          <a href="PHP/statistique.php" target="box">Statistique de ce mois</a>
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <section>
+        <iframe src="HTML/ajoutlivre.html" name="box" frameborder="0"></iframe>
+      </section>
+    </main>
+    <footer>
+      <pre>“Lire c'est voir le monde par mille regards...”</pre>
+    </footer>
+    <script src="JS/date.js"></script>
+  </body>
+</html>

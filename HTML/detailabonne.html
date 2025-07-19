@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/styles.css" />
+  </head>
+  <body>
+    <form action="../PHP/detailabonne.php" method="post">
+      <fieldset>
+        <legend>Detail abonné</legend>
+        <input
+          type="text"
+          name="cin"
+          id="cin"
+          placeholder="CIN de l'abonné"
+        /><br />
+        <input type="checkbox" name="Code" id="Code">
+        <label for="Code">Code d'accés</label>
+        <input type="checkbox" name="Emprunts" id="Emprunts">
+        <label for="Emprunts">Emprunts</label>
+        <hr />
+        <input type="submit" value="Afficher" />
+      </fieldset>
+    </form>
+  </body>
+</html>
